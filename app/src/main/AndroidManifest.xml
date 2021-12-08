@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
-            android:name=".BiodataActivity"
+            android:name="BiodataActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="simple.example.hewanpedia.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
