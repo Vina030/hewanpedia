@@ -8,62 +8,64 @@
     android:background="@color/blue">
 
 
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-medium"
-        android:text="PROFILE"
-        android:textSize="20dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginLeft="160dp"
-        android:textStyle="bold">
-    </TextView>
+        android:gravity="center"
+        android:text="Biodata"
+        android:textSize="40dp" />
 
     <ImageView
-        android:layout_width="307dp"
-        android:layout_height="341dp"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="15dp"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
         android:src="@drawable/profil" />
 
-    <TextView
-        android:text="NAMA      : VINA SRIWAHYUNI RAMADANI"
-        android:textStyle="bold"
-        android:layout_marginTop="40dp"
-        android:layout_marginLeft="30dp"
-        android:textSize="18dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VINA SRIWAHYUNI RAMADANI"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Prodi"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TI D (Semester 3)"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="NMP"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="200602127"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Hobi"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Memasak"
+            android:textSize="20dp"/>
+    </LinearLayout>
 
-    <TextView
-        android:text="KELAS    : TI_D3"
-        android:textStyle="bold"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="30dp"
-        android:textSize="18dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-    </TextView>
-    <TextView
-        android:text="NPM       : 200602127"
-        android:textStyle="bold"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="30dp"
-        android:textSize="18dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-    </TextView>
-    <TextView
-        android:text="E-mail     : vinasriwahyuniramadani@gmail.com"
-        android:textStyle="bold"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="30dp"
-        android:textSize="18dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-    </TextView>
 
 </LinearLayout>

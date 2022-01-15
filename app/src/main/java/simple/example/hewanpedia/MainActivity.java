@@ -12,10 +12,10 @@ import android.widget.ImageButton;
 public class MainActivity extends AppCompatActivity {
 
     Intent pindah;
-    ImageButton btnKucing,btnAnjing;
-    Button tombol;
+    ImageButton btnKucing,btnAnjing,btnSapi;
+    Button btnBiodata;
     public static final String JENIS_GALERI_KEY = "JENIS_GALERI";
-    private View btnSapi;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,11 +29,11 @@ public class MainActivity extends AppCompatActivity {
         btnKucing = findViewById(R.id.btn_buka_ras_kucing);
         btnAnjing = findViewById(R.id.btn_buka_ras_anjing);
         btnSapi = findViewById(R.id.btn_buka_ras_Sapi);
-        tombol = (Button) findViewById(R.id.btn_biodata);
+        btnBiodata = (Button) findViewById(R.id.btn_biodata);
         btnKucing.setOnClickListener(view -> bukaGaleri("Kucing"));
         btnAnjing.setOnClickListener(view -> bukaGaleri("Anjing"));
         btnSapi.setOnClickListener(view -> bukaGaleri("Sapi"));
-        tombol.setOnClickListener(new View.OnClickListener() {
+        btnBiodata.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent pindah = new Intent(MainActivity.this,BiodataActivity.class);
